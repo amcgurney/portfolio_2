@@ -1,6 +1,11 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
 
+img {
+	border-radius: 8px;
+	max-width: 65%;
+  	height: auto;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1733,8 +1738,9 @@ input, select, textarea {
 
 		.image img {
 			display: block;
-			width: 100%;
+			min-width: 100%;
 			border-radius: 8px;
+			min-height: 183px;
 		}
 
 		.image:before {
@@ -1755,9 +1761,9 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			min-width: 100%;
 			margin: 0 0 2em 0;
-			max-width: 235px;
+			width: 100%;
 		}
 
 		.image.left {
